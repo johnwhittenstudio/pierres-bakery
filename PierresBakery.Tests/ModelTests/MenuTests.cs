@@ -6,7 +6,7 @@ namespace PierresBakery.Tests
   [TestClass]
   public class MenuTests
   {
-//Bread Tests
+//--------------------------------Bread Tests--------------------------------//
     [TestMethod]
     public void BreadConstructor_CreatesInstanceOfBread_Bread()
     {
@@ -69,7 +69,7 @@ namespace PierresBakery.Tests
       Assert.AreEqual(10, newBread.SetPrice());
     }
 
-//Pastry Tests
+//--------------------------------Pastry Tests--------------------------------//
     [TestMethod]
     public void PastryConstructor_CreatesInstanceOfPastry_Pastry()
     {
@@ -131,6 +131,22 @@ namespace PierresBakery.Tests
       //Assert
       Assert.AreEqual(5, newPastry.SetPrice());
     }
-
+    [TestMethod]
+    public void GetDescription_ReturnsCostOfSixPastry_Int()
+    {
+      //Arrange
+      int pastryQuantity = 6;
+      Pastry newPastry = new Pastry(pastryQuantity);
+      //Act
+      newPastry.SetPrice();
+      //Assert
+      Assert.AreEqual(10, newPastry.SetPrice());
+    }
+//--------------------------------OrderTotal Tests--------------------------------//
+    [TestMethod]
+    public void CalculateTotal_AddCostOfBreadAndPastry_Int()
+    {
+      Assert.AreEqual(7, OrderTotal.CalculateOrder(5,2));
+    }
   }
 }
