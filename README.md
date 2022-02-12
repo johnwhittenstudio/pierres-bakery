@@ -24,14 +24,14 @@ _The first C# project at Epicodus. The project should create a bakery console ap
 
 - _Navigate to the top level of the directory with the command `$ cd pierres-bakery`_
 
-- _To run the program type the command: ```dotnet run```
+- _To run the program type the command: ```dotnet run```_
 
-# Known Bugs
+## Known Bugs
 - _None._
 
-# License
+## License
 
 [MIT License](https://opensource.org/licenses/MIT) Published _**2022**_ by _**John Whitten**_
 
-# Contact
+## Contact
 - John Whitten at [johnwhitten.studio@gmail.com](mailto:johnwhitten.studio@gmail.com)
