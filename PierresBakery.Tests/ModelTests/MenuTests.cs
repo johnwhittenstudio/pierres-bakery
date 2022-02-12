@@ -55,19 +55,20 @@ namespace PierresBakery.Tests
       Assert.AreEqual(5, newBread.SetPrice());
     }
 
-    // [TestMethod]
-    // public void GetDescription_ReturnsCostOfTwoBread_Int()
-    // {
-    //   //Arrange
-    //   int breadQuantity = 2;
-    //   Bread newBread = new Bread(breadQuantity);
+    [TestMethod]
+    public void GetDescription_ReturnsCostOfTwoBread_Int()
+    {
+      //Arrange
+      int breadQuantity = 2;
+      Bread newBread = new Bread(breadQuantity);
 
-    //   //Act
-    //   int order = newBread.BreadQuantity;
+      //Act
+      newBread.SetPrice();
 
-    //   //Assert
-    //   Assert.AreEqual(2, 10);
-    // }
+      //Assert
+      Assert.AreEqual(10, newBread.SetPrice());
+    }
+
 
   }
 }
