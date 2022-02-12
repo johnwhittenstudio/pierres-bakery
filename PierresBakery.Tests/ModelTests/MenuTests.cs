@@ -98,6 +98,17 @@ namespace PierresBakery.Tests
       //Assert
       Assert.AreEqual(0, order);
     }
+    [TestMethod]
+    public void GetDescription_ReturnsCostOfonePastry_Int()
+    {
+      //Arrange
+      int pastryQuantity = 1;
+      Pastry newPastry = new Pastry(pastryQuantity);
+      //Act
+      int order = newPastry.PastryQuantity;
+      //Assert
+      Assert.AreEqual(1, order);
+    }
 
   }
 }
