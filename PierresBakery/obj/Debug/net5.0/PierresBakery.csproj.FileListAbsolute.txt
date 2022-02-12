@@ -10,3 +10,6 @@
 /Users/BigBoi/Desktop/pierres-bakery/PierresBakery/obj/Debug/net5.0/PierresBakery.dll
 /Users/BigBoi/Desktop/pierres-bakery/PierresBakery/obj/Debug/net5.0/ref/PierresBakery.dll
 /Users/BigBoi/Desktop/pierres-bakery/PierresBakery/obj/Debug/net5.0/PierresBakery.pdb
+/Users/BigBoi/Desktop/pierres-bakery/PierresBakery/bin/Debug/net5.0/PierresBakery.runtimeconfig.json
+/Users/BigBoi/Desktop/pierres-bakery/PierresBakery/bin/Debug/net5.0/PierresBakery.runtimeconfig.dev.json
+/Users/BigBoi/Desktop/pierres-bakery/PierresBakery/obj/Debug/net5.0/PierresBakery.genruntimeconfig.cache

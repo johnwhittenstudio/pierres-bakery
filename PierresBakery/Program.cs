@@ -10,13 +10,17 @@ namespace PierresBakery.Models
     public static void Main()
     {
 
-      Console.WriteLine("------------------------------------");
-      Console.WriteLine("~•~•~~•~•~~•~•~///~•~~•~•~~•~•~~•~•~");
-      Console.WriteLine("~•~•~Welcome to Pierre's Bakery~•~•~");
-      Console.WriteLine("~•~•~~•~•~~•~•~///~•~~•~•~~•~•~~•~•~");
-      Console.WriteLine("------------------------------------");
-      Console.WriteLine("---Please have a look at our menu---");
-      Console.WriteLine("------------------------------------");
+      Console.WriteLine("---------------------~---------------------");
+      Console.WriteLine("~•~~•~•~~•~•~~•~•~~/~/~/~•~~•~•~~•~•~~•~•~~");
+      Console.WriteLine("~•~•~                                 ~•~•~");
+      Console.WriteLine("~•       Welcome to Pierre's Bakery      •~");
+      Console.WriteLine("~•~•~                                 ~•~•~");
+      Console.WriteLine("~•~~•~•~~•~•~~•~•~~/~/~/~•~~•~•~~•~•~~•~•~~");
+      Console.WriteLine("-~-    Please have a look at our menu   -~-");
+      Console.WriteLine("-~-~-           -~•~•~•~•~-           -~-~-");
+      Console.WriteLine("-~-  Daily Deals on Bread and Pastries  -~-");
+      Console.WriteLine("---~------~----------~----------~------~---");
+
 
     }
   }
