@@ -31,9 +31,9 @@ namespace PierresBakery.Tests
       int breadQuantity = 0;
       Bread newBread = new Bread(breadQuantity);
       //Act
-      int order = newBread.BreadQuantity;
+      newBread.SetPrice();
       //Assert
-      Assert.AreEqual(0, order);
+      Assert.AreEqual(0, newBread.SetPrice());
     }
     [TestMethod]
     public void GetDescription_ReturnsCostOfOneBread_Int()
@@ -94,9 +94,9 @@ namespace PierresBakery.Tests
       int pastryQuantity = 0;
       Pastry newPastry = new Pastry(pastryQuantity);
       //Act
-      int order = newPastry.PastryQuantity;
+      newPastry.SetPrice();
       //Assert
-      Assert.AreEqual(0, order);
+      Assert.AreEqual(0, newPastry.SetPrice());
     }
     [TestMethod]
     public void GetDescription_ReturnsCostOfOnePastry_Int()
@@ -105,9 +105,9 @@ namespace PierresBakery.Tests
       int pastryQuantity = 1;
       Pastry newPastry = new Pastry(pastryQuantity);
       //Act
-      int order = newPastry.PastryQuantity;
+      newPastry.SetPrice();
       //Assert
-      Assert.AreEqual(1, order);
+      Assert.AreEqual(2, newPastry.SetPrice());
     }
     [TestMethod]
     public void GetDescription_ReturnsCostOfTwoPastry_Int()
@@ -116,9 +116,20 @@ namespace PierresBakery.Tests
       int pastryQuantity = 2;
       Pastry newPastry = new Pastry(pastryQuantity);
       //Act
-      int order = newPastry.PastryQuantity;
+      newPastry.SetPrice();
       //Assert
-      Assert.AreEqual(2, order);
+      Assert.AreEqual(4, newPastry.SetPrice());
+    }
+    [TestMethod]
+    public void GetDescription_ReturnsCostOfThreePastry_Int()
+    {
+      //Arrange
+      int pastryQuantity = 3;
+      Pastry newPastry = new Pastry(pastryQuantity);
+      //Act
+      newPastry.SetPrice();
+      //Assert
+      Assert.AreEqual(5, newPastry.SetPrice());
     }
 
   }

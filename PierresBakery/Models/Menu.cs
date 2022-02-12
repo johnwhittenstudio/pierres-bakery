@@ -47,8 +47,18 @@ namespace PierresBakery.Models
     //Buy 1 for $2 or 3 for $5. Four pastries costs $7, five pastries costs $9, and six pastries costs $10.
     public int SetPrice()
     {
-      PastryCost = (PastryQuantity *2);
-      return PastryCost;
+      if((PastryQuantity % 3) == 0)
+      {
+        PastryCost = (PastryQuantity / 3) * 5;
+      }
+      else if ((PastryQuantity % 3) != 0);
+      {
+
+        PastryCost = ((PastryQuantity / 3) * 5) + ((PastryQuantity % 3) * 2);
+        return PastryCost;
+      }  
+      // PastryCost = (PastryQuantity *2);
+      // return PastryCost;
     }
 
 
