@@ -18,7 +18,7 @@ _The application should include the following functionality:_
 - _There should be two classes: one for Bread and one for Pastry._
 - _When the user runs the application, they should receive a prompt with a welcome message along with the cost for both Bread and Pastry._
 - _A user should be able to specify how many loaves of Bread and how many Pastrys they'd like._
-- _The application will return the total cost of the order._
+- _The application will return the total cost of the order._<br>
 _Pierre offers the following deals:_
 - _Bread: Buy 2, get 1 free (every 3rd loaf of bread is free.). A single loaf costs $5, two loaves costs $10, and three loaves cost $10._
 - _Pastry: Buy 1 for $2 or 3 for $5. Four pastries costs $7, five pastries costs $9, and six pastries costs $10._
