@@ -27,10 +27,24 @@ namespace PierresBakery.Models
         return BreadCost;
       }  
     }
+  }
+      // BreadCost = (BreadQuantity * 5);
+      // return BreadCost;
 
 
-    // public class Pastry
+  public class Pastry
+  {
+
+    public int PastryQuantity { get; set; }
+    public int PastryCost { get; set; }
+
+    public Pastry(int pastryQuantity, int pastryCost = 0)
+    {
+      PastryQuantity = pastryQuantity;
+      PastryCost = pastryCost;
+    }
 
     //Buy 1 for $2 or 3 for $5. Four pastries costs $7, five pastries costs $9, and six pastries costs $10.
+  
   }
 }
