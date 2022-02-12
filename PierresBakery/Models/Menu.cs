@@ -26,7 +26,6 @@ namespace PierresBakery.Models
     }
   }
 
-
   public class Pastry
   {
     public int PastryQuantity { get; set; }
@@ -51,7 +50,6 @@ namespace PierresBakery.Models
     }
   }
 
-
   public class OrderTotal
   {
     public static int CalculateOrder(int BreadCost, int PastryCost)
@@ -60,6 +58,4 @@ namespace PierresBakery.Models
       return Total;
     }
   }
-
-
 }
