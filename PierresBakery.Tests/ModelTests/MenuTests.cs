@@ -27,5 +27,19 @@ namespace PierresBakery.Tests
       Assert.AreEqual(breadQuantity, order);
     }
 
+    [TestMethod]
+    public void GetDescription_ReturnsCostOfNoBread_Int()
+    {
+      //Arrange
+      int breadQuantity = 0;
+      Bread newBread = new Bread(breadQuantity);
+
+      //Act
+      int order = newBread.BreadQuantity;
+
+      //Assert
+      Assert.AreEqual(0, order);
+    }
+
   }
 }
