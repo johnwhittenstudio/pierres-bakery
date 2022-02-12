@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "/Users/whittenj/.nuget/packages/": {}
+    "/Users/BigBoi/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/whittenj/Desktop/pierres-bakery/PierresBakery/PierresBakery.csproj",
+      "projectUniqueName": "/Users/BigBoi/Desktop/pierres-bakery/PierresBakery/PierresBakery.csproj",
       "projectName": "PierresBakery",
-      "projectPath": "/Users/whittenj/Desktop/pierres-bakery/PierresBakery/PierresBakery.csproj",
-      "packagesPath": "/Users/whittenj/.nuget/packages/",
-      "outputPath": "/Users/whittenj/Desktop/pierres-bakery/PierresBakery/obj/",
+      "projectPath": "/Users/BigBoi/Desktop/pierres-bakery/PierresBakery/PierresBakery.csproj",
+      "packagesPath": "/Users/BigBoi/.nuget/packages/",
+      "outputPath": "/Users/BigBoi/Desktop/pierres-bakery/PierresBakery/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/whittenj/.nuget/NuGet/NuGet.Config"
+        "/Users/BigBoi/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
