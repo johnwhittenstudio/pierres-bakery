@@ -16,8 +16,15 @@ namespace PierresBakery.Tests
     [TestMethod]
     public void GetDescription_ReturnsBreadOrdered_Int()
     {
-      int breadOrdered = 1;
-      Bread newBread = new Bread(breadOrdered);
+      //Arrange
+      int breadQuantity = 1;
+      Bread newBread = new Bread(breadQuantity);
+
+      //Act
+      int order = newBread.BreadQuantity;
+
+      //Assert
+      Assert.AreEqual(breadQuantity, order);
     }
 
   }
