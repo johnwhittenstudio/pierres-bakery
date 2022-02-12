@@ -99,7 +99,7 @@ namespace PierresBakery.Tests
       Assert.AreEqual(0, order);
     }
     [TestMethod]
-    public void GetDescription_ReturnsCostOfonePastry_Int()
+    public void GetDescription_ReturnsCostOfOnePastry_Int()
     {
       //Arrange
       int pastryQuantity = 1;
@@ -108,6 +108,17 @@ namespace PierresBakery.Tests
       int order = newPastry.PastryQuantity;
       //Assert
       Assert.AreEqual(1, order);
+    }
+    [TestMethod]
+    public void GetDescription_ReturnsCostOfTwoPastry_Int()
+    {
+      //Arrange
+      int pastryQuantity = 2;
+      Pastry newPastry = new Pastry(pastryQuantity);
+      //Act
+      int order = newPastry.PastryQuantity;
+      //Assert
+      Assert.AreEqual(2, order);
     }
 
   }
