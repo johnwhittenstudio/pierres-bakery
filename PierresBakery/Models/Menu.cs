@@ -15,6 +15,13 @@ namespace PierresBakery.Models
     }
 
     //Buy 2, get 1 free (every 3rd loaf of bread is free.). A single loaf costs $5, two loaves costs $10, and three loaves cost $10.
+    public int SetPrice()
+    {
+      BreadCost = BreadQuantity * 5;
+      return BreadCost;
+    }
+
+
     // public int SetPrice()
     // {
     //   if(BreadQuantity % 3 == 0)
