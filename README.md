@@ -38,7 +38,11 @@ Pierre offers the following deals:
 
 - _Navigate to the top level of the directory with the command `$ cd pierres-bakery`_
 
-- _To run the program type the command: ```dotnet run```_
+- _To build and install dependencies, navigate to PierresBakery and type the command: ```dotnet build```_
+
+- _To run the program, navigate to PierresBakery and type the command: ```dotnet run```_
+
+- _To test, navigate to PierresBakery.Tests and type the command: ```dotnet test```_
 
 ## Known Bugs
 - _None._
